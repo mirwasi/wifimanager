@@ -1,0 +1,4 @@
+wifimanager
+===========
+
+XBMC Wifi Manager
