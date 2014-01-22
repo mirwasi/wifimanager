@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.wifimanager" name="WifiManager" provider-name="Mir Wasi Ahmed" version="0.1.11">
+<addon id="script.wifimanager" name="WifiManager" provider-name="Mir Wasi Ahmed" version="0.1.11">
  <requires>
   <import addon="xbmc.python" version="2.0">
   </import>
-  <import addon="script.module.xbmcswift2" version="2.4.0">
-  </import>
  </requires>
- <extension library="addon.py" point="xbmc.python.pluginsource">
-  <provides>
-   video
-  </provides>
+ <extension library="addon.py" point="xbmc.python.script">
  </extension>
  <extension point="xbmc.addon.metadata">
   <platform>
